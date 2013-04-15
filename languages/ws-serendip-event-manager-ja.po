@@ -1,0 +1,356 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Serendip Event Manager ver1.0\n"
+"POT-Creation-Date: 2013-03-28 15:17+0900\n"
+"PO-Revision-Date: 2013-04-01 18:53+0900\n"
+"Last-Translator: iNo <ino444tom@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+
+#: ws-serendip-event-manager.class.php:161
+#: ws-serendip-event-manager.view-place.php:79
+msgid "Places list"
+msgstr "場所一覧"
+
+#: ws-serendip-event-manager.class.php:163
+#: ws-serendip-event-manager.view-place.php:80
+msgid "Add new place"
+msgstr "新規場所を追加"
+
+#: ws-serendip-event-manager.class.php:164
+#: ws-serendip-event-manager.view-options.php:33
+msgid "Event Manager Options"
+msgstr "Event Manager 設定"
+
+#: ws-serendip-event-manager.class.php:164
+msgid "Options"
+msgstr "設定"
+
+#: ws-serendip-event-manager.class.php:173
+msgid "Event day and place"
+msgstr "日時・場所"
+
+#: ws-serendip-event-manager.class.php:233
+msgid "/ws-serendip-event-manager-language.js"
+msgstr "/ws-serendip-event-manager-language-ja.js"
+
+#: ws-serendip-event-manager.class.php:478
+msgid "Publish not allowed. (require event start date and event end date.)"
+msgstr "公開できませんでした。(開始日と終了日は必須項目です。)"
+
+#: ws-serendip-event-manager.view-options.php:25
+#: ws-serendip-event-manager.view-place.php:130
+msgid "Security check failed"
+msgstr "セキュリティチェックに失敗しました。"
+
+#: ws-serendip-event-manager.view-options.php:43
+msgid "Count posts per page"
+msgstr "1ページに表示する投稿数"
+
+#: ws-serendip-event-manager.view-options.php:46
+msgid "Display count posts in event archives page."
+msgstr "過去のイベント一覧ページに表示する投稿数"
+
+#: ws-serendip-event-manager.view-options.php:50
+msgid "Count days from posts"
+msgstr "投稿日からの経過日数"
+
+#: ws-serendip-event-manager.view-options.php:53
+msgid "Display &quot;New!&quot; text, when posts within this days count."
+msgstr "この日数以内の投稿では &quot;New!&quot; の文字列が表示されます。"
+
+#: ws-serendip-event-manager.view-options.php:57
+msgid "Update Options &#187;"
+msgstr "設定を更新 &#187;"
+
+#: ws-serendip-event-manager.view-place.php:85
+#: ws-serendip-event-manager.view-place.php:226
+msgid "Name"
+msgstr "名前"
+
+#: ws-serendip-event-manager.view-place.php:86
+#: ws-serendip-event-manager.view-place.php:233
+msgid "Address"
+msgstr "住所"
+
+#: ws-serendip-event-manager.view-place.php:87
+#: ws-serendip-event-manager.view-place.php:240
+msgid "Tel"
+msgstr "電話番号"
+
+#: ws-serendip-event-manager.view-place.php:88
+#: ws-serendip-event-manager.view-place.php:244
+msgid "Zip"
+msgstr "郵便番号"
+
+#: ws-serendip-event-manager.view-place.php:89
+#: ws-serendip-event-manager.view-place.php:248
+msgid "Web Url"
+msgstr "Web Url"
+
+#: ws-serendip-event-manager.view-place.php:90
+#: ws-serendip-event-manager.view-place.php:252
+msgid "Map Url"
+msgstr "Map Url"
+
+#: ws-serendip-event-manager.view-place.php:91
+#: ws-serendip-event-manager.view-place.php:256
+msgid "Description"
+msgstr "詳細"
+
+#: ws-serendip-event-manager.view-place.php:102
+#, php-format
+msgid "Edit %s"
+msgstr "%s を編集する"
+
+#: ws-serendip-event-manager.view-place.php:104
+msgid "Edit"
+msgstr "編集"
+
+#: ws-serendip-event-manager.view-place.php:105
+msgid "Delete"
+msgstr "削除"
+
+#: ws-serendip-event-manager.view-place.php:122
+msgid "There are no places in the database yet!"
+msgstr "投稿された場所はありません。"
+
+#: ws-serendip-event-manager.view-place.php:144
+msgid "Place added succlessfully."
+msgstr "場所の登録を行いました。"
+
+#: ws-serendip-event-manager.view-place.php:147
+msgid "Place coud not be added to database."
+msgstr "場所をデータベースに登録できませんでした。"
+
+#: ws-serendip-event-manager.view-place.php:164
+msgid "Place edited succlessfully."
+msgstr "場所の編集を行いました。"
+
+#: ws-serendip-event-manager.view-place.php:166
+msgid "Place was not changed."
+msgstr "場所の変更ができませんでした。"
+
+#: ws-serendip-event-manager.view-place.php:175
+msgid "Place deleted succlessfully."
+msgstr "場所の削除を行いました。"
+
+#: ws-serendip-event-manager.view-place.php:177
+msgid "Place coud not be deleted."
+msgstr "場所の削除ができませんでした。"
+
+#: ws-serendip-event-manager.view-place.php:198
+#: ws-serendip-event-manager.view-place.php:264
+msgid "Add New Place"
+msgstr "新規場所の追加"
+
+#: ws-serendip-event-manager.view-place.php:200
+#: ws-serendip-event-manager.view-place.php:264
+msgid "Delete Place"
+msgstr "場所の削除"
+
+#: ws-serendip-event-manager.view-place.php:202
+msgid "Edit Place"
+msgstr "場所の編集"
+
+#: ws-serendip-event-manager.view-place.php:210
+msgid "Place Editor"
+msgstr "場所編集"
+
+#: ws-serendip-event-manager.view-place.php:229
+msgid "Add anchor tag, if web url field were filled."
+msgstr "Web Url が入力されていた場合にリンクが設定されます。"
+
+#: ws-serendip-event-manager.view-place.php:236
+msgid "Add anchor tag, if map url field were filled."
+msgstr "Map Url が設定されていた場合にリンクが設定されます。"
+
+#: ws-serendip-event-manager.view-place.php:259
+msgid ""
+"Description can use &lt;a&gt; tag. New line is auto replaced to &lt;br /&gt; "
+"tag."
+msgstr ""
+"詳細では &lt;a&gt; tag が使用できます。改行は &lt;br /&gt; に自動的に変換され"
+"ます。"
+
+#: ws-serendip-event-manager.view-place.php:264
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: ws-serendip-event-manager.view.php:20
+msgid "Events"
+msgstr "イベント"
+
+#: ws-serendip-event-manager.view.php:21 ws-serendip-event-manager.view.php:35
+msgid "Event"
+msgstr "イベント"
+
+#: ws-serendip-event-manager.view.php:22 ws-serendip-event-manager.view.php:23
+msgid "Add new event"
+msgstr "新規イベントを追加"
+
+#: ws-serendip-event-manager.view.php:24
+msgid "Edit event"
+msgstr "イベントを編集"
+
+#: ws-serendip-event-manager.view.php:25
+msgid "New event"
+msgstr "新規イベント"
+
+#: ws-serendip-event-manager.view.php:26
+msgid "View event"
+msgstr "イベントを表示"
+
+#: ws-serendip-event-manager.view.php:27
+msgid "Search event"
+msgstr "イベントを検索"
+
+#: ws-serendip-event-manager.view.php:28
+msgid "Posted events not found."
+msgstr "投稿されたイベントはありません。"
+
+#: ws-serendip-event-manager.view.php:29
+msgid "Events are not found in trash."
+msgstr "ゴミ箱にイベントはありません。"
+
+#: ws-serendip-event-manager.view.php:53 ws-serendip-event-manager.view.php:54
+#: ws-serendip-event-manager.view.php:66
+msgid "Event category"
+msgstr "イベント分類"
+
+#: ws-serendip-event-manager.view.php:55
+msgid "Search event categories"
+msgstr "イベント分類を検索"
+
+#: ws-serendip-event-manager.view.php:56
+msgid "Popular event categories"
+msgstr "よく使われているイベント分類"
+
+#: ws-serendip-event-manager.view.php:57
+msgid "All event categories"
+msgstr "すべてのイベント分類"
+
+#: ws-serendip-event-manager.view.php:60
+msgid "Edit event category"
+msgstr "イベント分類を編集"
+
+#: ws-serendip-event-manager.view.php:61
+msgid "Update"
+msgstr "更新"
+
+#: ws-serendip-event-manager.view.php:62
+msgid "Add new event category &raquo;"
+msgstr "新規イベント分類を追加 &raquo;"
+
+#: ws-serendip-event-manager.view.php:63
+msgid "New event category"
+msgstr "新規イベント分類"
+
+#: ws-serendip-event-manager.view.php:95
+#: ws-serendip-event-manager.view.php:141
+msgid "Start date"
+msgstr "開始日"
+
+#: ws-serendip-event-manager.view.php:98
+msgid "*Undecided"
+msgstr "※未定"
+
+#: ws-serendip-event-manager.view.php:99
+#: ws-serendip-event-manager.view.php:106
+msgid "Date format: 2013-01-01"
+msgstr "日付フォーマット：2013-01-01"
+
+#: ws-serendip-event-manager.view.php:103
+#: ws-serendip-event-manager.view.php:142
+msgid "End date"
+msgstr "終了日"
+
+#: ws-serendip-event-manager.view.php:110
+#: ws-serendip-event-manager.view.php:143
+msgid "Time"
+msgstr "時間"
+
+#: ws-serendip-event-manager.view.php:113
+msgid "Time can be given in free format."
+msgstr "時間はフリーフォーマットで入力できます。"
+
+#: ws-serendip-event-manager.view.php:117
+#: ws-serendip-event-manager.view.php:279
+msgid "Place"
+msgstr "場所"
+
+#: ws-serendip-event-manager.view.php:120
+msgid "Place can use &lt;a&gt;,&ltdl&gt;,&ltdt&gt;,&ltdd&gt; tag."
+msgstr "場所は  &lt;a&gt;,&ltdl&gt;,&ltdt&gt;,&ltdd&gt;  タグが使用できます。"
+
+#: ws-serendip-event-manager.view.php:124
+msgid "Autocomplete place"
+msgstr "場所を自動入力"
+
+#: ws-serendip-event-manager.view.php:140
+#: ws-serendip-event-manager.view.php:159
+#: ws-serendip-event-manager.view.php:272
+#: ws-serendip-event-manager.view.php:275
+msgid "Undecided"
+msgstr "未定"
+
+#: ws-serendip-event-manager.view.php:144
+msgid "Categories"
+msgstr "イベント分類"
+
+#: ws-serendip-event-manager.view.php:218
+msgid "Sun"
+msgstr "日曜日"
+
+#: ws-serendip-event-manager.view.php:219
+msgid "Mon"
+msgstr "月曜日"
+
+#: ws-serendip-event-manager.view.php:220
+msgid "Tue"
+msgstr "火曜日"
+
+#: ws-serendip-event-manager.view.php:221
+msgid "Wed"
+msgstr "水曜日"
+
+#: ws-serendip-event-manager.view.php:222
+msgid "Thu"
+msgstr "木曜日"
+
+#: ws-serendip-event-manager.view.php:223
+msgid "Fri"
+msgstr "金曜日"
+
+#: ws-serendip-event-manager.view.php:224
+msgid "Sat"
+msgstr "土曜日"
+
+#: ws-serendip-event-manager.view.php:244
+msgid "TBD"
+msgstr "未定"
+
+#: ws-serendip-event-manager.view.php:249
+msgid "Finished"
+msgstr "終了しました"
+
+#: ws-serendip-event-manager.view.php:253
+msgid "New!"
+msgstr "New!"
+
+#: ws-serendip-event-manager.view.php:256
+msgid "Date"
+msgstr "日時"
+
+#: ws-serendip-event-manager.view.php:260
+#: ws-serendip-event-manager.view.php:264
+msgid "Y/n/j"
+msgstr "Y年n月j日"
+
+#: ws-serendip-event-manager.view.php:285
+msgid "Details"
+msgstr "内容"

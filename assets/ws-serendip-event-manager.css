@@ -1,0 +1,163 @@
+@charset "utf-8";
+/**************************************************
+    ws-serendip-event-manager.css
+    file created in 2013/03/21 22:29:39.
+    LastUpdated :2013/04/10 21:31:39.
+    author iNo
+**************************************************/
+
+#ws-serendip-event-manager-list {
+	margin: 0 2rem 0 4rem;
+}
+
+#ws-serendip-event-manager-list > dt {
+	position: relative;
+	padding: .5rem 1rem;
+	border-top: 1px solid #dfdfdf;
+	border-left: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+	border-top-left-radius: 6px;;
+	border-top-right-radius: 6px;;
+	font-size: 120%;
+	font-weight: bold;
+	line-height: 140%;
+	text-shadow: #efefff 0 1px 1px;
+}
+
+#ws-serendip-event-manager-list > dt.odd-month {
+	background-color: #feefef;
+}
+
+#ws-serendip-event-manager-list > dt.even-month {
+	background-color: #efeffe;
+}
+
+#ws-serendip-event-manager-list > dt.finished-odd-month {
+	background-color: #efefef;
+}
+
+#ws-serendip-event-manager-list > dt.finished-even-month {
+	background-color: #efefef;
+}
+
+#ws-serendip-event-manager-list > dd {
+	position: relative;
+	padding: .5rem 1rem;
+	border-bottom: 1px solid #dfdfdf;
+	border-left: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+	border-bottom-left-radius: 6px;;
+	border-bottom-right-radius: 6px;;
+}
+#ws-serendip-event-manager-list p {
+	margin: 0; padding: 0;
+}
+.ws-serendip-event-manager-item > dt {
+	float: left;
+	width: 4rem;
+	font-weight: bold;
+	text-align: right;
+}
+.ws-serendip-event-manager-item > dd {
+	margin: 0 0 .5rem 4.5rem;
+}
+dl.ws-serendip-event-manager-place-info {
+	margin: 0;
+}
+.ws-serendip-event-manager-place-info > dt {
+	float: left;
+	width: 4rem;
+	font-weight: bold;
+	text-align: right;
+}
+.ws-serendip-event-manager-place-info > dt:after {
+	content: ':';
+	padding: 0 .2rem;
+}
+.ws-serendip-event-manager-place-info > dd {
+	margin: 0 0 .5rem 4rem;
+}
+.finished-message {
+	position: absolute;
+	top: -5px; right: 10%;
+	color: rgba(0, 0, 0, .8);
+	background-color: rgba(150, 150, 150, .5);
+	padding: .5rem 1rem;
+	font-size: 150%;
+	font-weight: bold;
+	border-radius: 10px;
+	-moz-transform: rotate(-5deg);
+	-webkit-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+	box-shadow: rgba(0, 0, 0, .5) 1px 1px 5px;
+	text-shadow: rgba(255, 255, 255, .9) 0 1px 1px;
+}
+.new-event {
+	position: absolute;
+	top: 5px; left: -35px;
+	color: rgba(90, 40, 10, .8);
+	background-color: rgba(250, 100, 50, .2);
+	padding: .5rem 1rem;
+	font-size: 150%;
+	font-weight: bold;
+	border-radius: 10px;
+	-moz-transform: rotate(-5deg);
+	-webkit-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+	box-shadow: rgba(0, 0, 0, .5) 1px 1px 5px;
+	text-shadow: rgba(255, 255, 255, .9) 0 1px 1px;
+}
+.post-edit {
+	text-align: right;
+	font-size: 90%;
+	font-weight: normal;
+}
+.title-date {
+	display: block;
+	float: left;
+	width: 2.8rem;
+	padding-right: .2rem;
+	font-family: 'Times New Roman', serif;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	-moz-transform: scale(3.0) rotate(-5deg) translate(-10px, -5px);
+	-webkit-transform: scale(3.0) rotate(-5deg) translate(-10px, -5px);
+	transform: scale(3.0) rotate(-5deg) translate(-10px, -5px);
+	text-shadow: rgba(0, 0, 0, .2) 1px 1px 1px;
+	color: rgba(0, 0, 0, .3);
+	z-index: 1;
+}
+.event-title {
+	display: block;
+	margin-left: 3.0rem;
+}
+.week-0 {
+	color: #c91e1e;
+}
+.week-6 {
+	color: #1e1ec9;
+}
+
+/* page nav */
+.ws-serendip-event-manager-page-nav {
+	margin: 0 2rem;
+}
+.ws-serendip-event-manager-page-nav .page-numbers {
+	display: inline-block;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.ws-serendip-event-manager-page-nav a.page-numbers {
+	border: 1px solid #dfdfdf;
+}
+
+.ws-serendip-event-manager-page-nav a.page-numbers:hover {
+	background-color: #feefd0;
+	text-decoration: underline;
+}
+
+/*
+vim:fdl=0 fdm=marker:ts=4 sw=4 sts=0:
+*/
